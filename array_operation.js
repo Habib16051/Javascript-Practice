@@ -27,3 +27,10 @@ let arr4 = [2, 7, 20,28];
 arr4.forEach(()=> {
     console.log(arr4); // [ 2, 7, 20, 28 ]
 });
+
+//map(): Creates a new array with the results of calling a provided function on every element in the calling array.
+let arr5 = [2, 4, 6];
+let arr_map = arr5.map((a)=> {
+    return a * 2;
+});
+console.log(arr_map); // [ 4, 8, 12 ]
