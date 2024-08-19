@@ -35,10 +35,39 @@ let arr_map = arr5.map((a)=> {
 });
 console.log(arr_map); // [ 4, 8, 12 ]
 
-
 // filter(): creates a new array with all elements that pass the test implemented by the provided function.
-let arr6 = [1, 2, 3, 4,5,7,10];
+let arr6 = [1, 2, 3, 4, 5, 7, 10];
 let filteredArr = arr6.filter((a)=> {
     return  a > 2;
 });
 console.log(filteredArr); // [ 3, 4, 5, 7, 10 ]
+
+// find(): Returns the value of the first element in the array that satisfies the provided testing function.
+// If no values satisfy the testing function, `undefined` is returned.
+
+let arr7 = [10,15,20,25,30]
+let findArr = arr7.find((a)=> {
+    return a > 10;
+})
+console.log(findArr); // 15
+
+//findIndex
+
+let arr8 = [10,15,20,25,30]
+let findArrIndex = arr7.findIndex((a)=> {
+    return a > 10;
+})
+console.log(findArrIndex); // 1 which is the position of 15
+
+// Includes: Determines whether an array includes a certain value among its entries, returning `true` or `false` as appropriate.
+let arr9 = [10,15,20,25,30]
+let arr_include = arr9.includes(20)
+console.log(arr_include);
+
+//sort(): sort the array either ascending order or descending order
+let arr_sort = [21, 15, 20, 25, 30, 5, 7, 100]
+let sorted_arr = arr_sort.sort((a, b)=> {
+    return a - b
+
+});
+console.log(sorted_arr) // [ 5, 7, 15, 20, 21, 25, 30, 100 ] => Ascending Order
