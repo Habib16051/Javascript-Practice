@@ -21,3 +21,9 @@ console.log(arr2); // [ 80, 70, 25 ]
 let arr3 = [2,4,6,8,10]
 let slice_arr = arr3.slice(1,4)
 console.log(slice_arr); // [ 4, 6, 8 ]
+
+// forEach():Executes a provided function once for each array element. It does not return a value.
+let arr4 = [2, 7, 20,28];
+arr4.forEach(()=> {
+    console.log(arr4); // [ 2, 7, 20, 28 ]
+});
