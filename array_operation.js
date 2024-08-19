@@ -34,3 +34,11 @@ let arr_map = arr5.map((a)=> {
     return a * 2;
 });
 console.log(arr_map); // [ 4, 8, 12 ]
+
+
+// filter(): creates a new array with all elements that pass the test implemented by the provided function.
+let arr6 = [1, 2, 3, 4,5,7,10];
+let filteredArr = arr6.filter((a)=> {
+    return  a > 2;
+});
+console.log(filteredArr); // [ 3, 4, 5, 7, 10 ]
