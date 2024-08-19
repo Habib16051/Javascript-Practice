@@ -14,3 +14,10 @@ let new_arr = arr.concat(arr2);
 console.log(new_arr); // [ 10, 14, 2, 3, 80, 70, 25 ]
 console.log(arr); // [ 10, 14, 2, 3 ]
 console.log(arr2); // [ 80, 70, 25 ]
+
+// slice ():  Returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included).
+// The original array is not modified.
+
+let arr3 = [2,4,6,8,10]
+let slice_arr = arr3.slice(1,4)
+console.log(slice_arr); // [ 4, 6, 8 ]
