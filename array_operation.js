@@ -44,7 +44,6 @@ console.log(filteredArr); // [ 3, 4, 5, 7, 10 ]
 
 // find(): Returns the value of the first element in the array that satisfies the provided testing function.
 // If no values satisfy the testing function, `undefined` is returned.
-
 let arr7 = [10,15,20,25,30]
 let findArr = arr7.find((a)=> {
     return a > 10;
@@ -52,7 +51,6 @@ let findArr = arr7.find((a)=> {
 console.log(findArr); // 15
 
 //findIndex
-
 let arr8 = [10,15,20,25,30]
 let findArrIndex = arr7.findIndex((a)=> {
     return a > 10;
