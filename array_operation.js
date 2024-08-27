@@ -69,3 +69,11 @@ let sorted_arr = arr_sort.sort((a, b)=> {
 
 });
 console.log(sorted_arr) // [ 5, 7, 15, 20, 21, 25, 30, 100 ] => Ascending Order
+
+var ok = 10
+function bk(){
+    var x = 10;
+}
+console.log(window.ok);
+console.log(ok);
+console.log(this.ok);
